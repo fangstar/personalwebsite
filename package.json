@@ -1,0 +1,31 @@
+{
+  "name": "mitchellfang.com",
+  "version": "1.0.0",
+  "description": "Mitchell Fang's Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-dev index.js"
+  },
+  "keywords": [
+    "mitchell",
+    "fang",
+    "fangstar"
+  ],
+  "author": "Mitchell Fang",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fangstar/personalwebsite.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-beta.3",
+    "express": "^4.16.2",
+    "holderjs": "^2.9.4",
+    "jquery": "^1.9.1",
+    "morgan": "^1.9.0",
+    "popper.js": "^1.12.9",
+    "pug": "^2.0.0-rc.4"
+  }
+}

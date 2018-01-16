@@ -1,0 +1,47 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#main {
+  padding-top: 2rem;
+}
+
+
+#skills .skills-content {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#skills .skill-logo {
+  margin-right: 5px;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+
+#home p {
+  letter-spacing: 0.02em;
+  line-height: 1.875em;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+#home img {
+    width: 100%;
+    border-radius: 100%;
+    width: 200px;
+    box-shadow: 3px 3px 5px #777!important;
+}
+
+.section {
+  padding: 60px 15px 30px;
+  border-bottom: 1px solid #d9d7d8;
+}
+
+footer {
+  padding: 40px 15px 30px;
+}

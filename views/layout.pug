@@ -1,0 +1,103 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    //- meta(http-equiv='Content-Security-Policy', content="default-src 'self'; font-src 'self'; data: fonts.gstatic.com; img-src 'self'l img-src 'self';")
+    title Mitchell Fang's Website
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css' integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous")
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+    link(href='https://fonts.googleapis.com/css?family=Noto+Sans', rel='stylesheet')
+    link(rel='stylesheet' href='/css/carousel.css' crossorigin="anonymous")
+    link(rel='stylesheet' href='/css/style.css' crossorigin="anonymous")
+  body   
+  header
+    //- nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark(style='background-color: rgba(0, 0, 0, 0.85);')
+    nav.navbar.navbar-expand-md.navbar-dark.fixed-top(style='background-color: rgba(0, 0, 0, 0.85);')
+      a.navbar-brand(href='#') Mitchell Fang
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarCollapse.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+        ul.navbar-nav
+          li.nav-item.active
+            a.nav-link(href='#')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='#skills') Skills
+          li.nav-item
+            a.nav-link(href='http://blog.mitchellfang.com' target="_blank") Blog
+          li.nav-item
+            a.nav-link(href='http://mfcoding.wordpress.com' target="_blank") mfcoding
+        //- ul.navbar-nav
+        //-   li.nav-item
+        //-     a.nav-link(href='#') Right
+        //-   li.nav-item
+        //-     a.nav-link(href='#') Right
+
+  #main.main(role='main')
+    #home.container-fluid.section
+      //- #home.container-fluid.section
+      .container
+        .row
+          .col-sm-3.col-sm-offset-4.col-md-offset-1
+            img.center-block.about-img(src='img/me.jpg')
+          .col-sm-10.col-sm-offset-1.col-md-7.col-md-offset-0
+            //- p
+              //- | Hi Thanks for visiting.  I'm an IT professional who is constantly looking for new challenges and learning new technologies.  I graduated from UC Berkeley with a BS in EECS and have done software since graduation.  I've worked in different fields and used different technologies. I have a passion for learning and trying to help companies and people achieve their goals.  I believe that the internet and computer programming can help everyone become more efficient and provide tools that make data more accessible and easier to be interpreted.
+              //- | I received my MBA in Business and looking how I can fulfill my potential of my understanding of Business and Technology. 
+            p
+              | Hello! Experienced IT professional trying to find his way in the world. Constantly exploring new technologies especially Web Technology.  Look to help people and companies achieve goals by building web tools to increase productivity.  Goal is make data more accessible, more easily interpreted and more easily understood with better presentation.
+
+    #skills.container-fluid.section
+      .container
+        .row.skills-content
+          .col-sm-6
+            //- span.glyphicon.glyphicon-picture
+            .skill-logo
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            h4.skill-name
+              | Front-end Development
+            hr
+            p
+              | Extensive Bootstrap experience (this site is Bootstrap v4). Familiar with Front-end JS frameworks such as React.js
+          .col-sm-6
+            .skill-logo
+              <i class="fa fa-database" aria-hidden="true"></i>
+            h4.skill-name
+              | Back-end Development
+            hr
+            p
+              | Experience designing databases in MySQL. Experience with NoSQL dbs such as MongoDB.  Extensive experience in PHP and working knowledge of RoR and NodeJS.
+
+    // FOOTER
+    footer.container
+      .row
+        .col-sm-12
+          a(target='_blank', href='https://github.com/crisnoel12')
+            i.fa.fa-github(aria-hidden='true')
+            |  GITHUB
+      .row
+        .col-sm-12
+          a(target='_blank', href='https://www.linkedin.com/in/mitchellfang/')              
+            i.fa.fa-linkedin(aria-hidden='true')
+            |  LinkedIn
+
+      p.float-right
+        a(href='#') Back to top
+      p
+        | © 2018 MF · 
+        a(href='#') Privacy
+        |  · 
+        a(href='#') Terms
+
+    block content
+
+
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js', integrity='sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js', crossorigin='anonymous')
